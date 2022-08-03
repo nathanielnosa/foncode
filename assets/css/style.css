@@ -70,3 +70,14 @@
     background-size: contain;
     height: 80vh;
 }
+
+
+/* media query */
+@media(max-width:520px){
+    .carousel-inner img{
+        height: 55vh;
+    }
+    .carousel-caption{
+        height: 30vh;
+    }
+}
