@@ -1,0 +1,72 @@
+:root{
+    --main-color: #085151 !important;
+    --secondary-color: rgb(56, 2, 2) !important;
+}
+
+.navbar{
+    background:var(--main-color)
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.navbar-brand span{
+    color: var(--secondary-color);
+}
+.navbar .btn{
+    background:var(--secondary-color);
+    color:#ffffff;
+}
+
+.navbar-nav .nav-link{
+    font-size:1.4rem;
+}
+.carousel-inner img{
+    height: 90vh;
+}
+#main{
+    background: var(--main-color);
+}
+.intro{
+    color: var(--secondary-color);
+}
+
+#main .card {
+    position: relative;
+  }
+  
+#main .card img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+#main .card .card-body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--secondary-color);
+  }
+
+  
+#main .card:hover .card-body {
+    opacity: 1;
+  }
+
+/* overview style */
+/* overview style */
+
+#overview-banner{
+    background-image: url(/assets/img/slide-4.webp);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 80vh;
+}
